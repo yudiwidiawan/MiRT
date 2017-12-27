@@ -12,6 +12,7 @@ import java.util.List;
 import bif14.mirt.DetailWarga;
 import bif14.mirt.R;
 import bif14.mirt.object.LaporanObject;
+import bif14.mirt.object.Warga;
 import bif14.mirt.viewholder.LaporanViewHolder;
 
 /**
@@ -20,8 +21,8 @@ import bif14.mirt.viewholder.LaporanViewHolder;
 
 public class LaporanAdapter extends RecyclerView.Adapter<LaporanViewHolder>{
     private Context context;
-    private List<LaporanObject> alllaporan;
-    public LaporanAdapter(Context context, List<LaporanObject> alllaporan) {
+    private List<Warga> alllaporan;
+    public LaporanAdapter(Context context, List<Warga> alllaporan) {
         this.context = context;
         this.alllaporan = alllaporan;
     }
@@ -39,9 +40,9 @@ public class LaporanAdapter extends RecyclerView.Adapter<LaporanViewHolder>{
     }
     @Override
     public void onBindViewHolder(LaporanViewHolder holder, int position) {
-        LaporanObject laporan = alllaporan.get(position);
-        holder.laporanTitle.setText(laporan.getJudul());
-        holder.laporanDesc.setText(laporan.getStatus());
+        Warga warga = alllaporan.get(position);
+        holder.laporanTitle.setText(warga.getNik());
+        holder.laporanDesc.setText(warga.getNamaKK());
     }
     @Override
     public int getItemCount() {

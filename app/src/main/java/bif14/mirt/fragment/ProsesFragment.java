@@ -30,8 +30,8 @@ public class ProsesFragment extends Fragment {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         laporanRecyclerView.setLayoutManager(linearLayoutManager);
         laporanRecyclerView.setHasFixedSize(true);
-        LaporanAdapter mAdapter = new LaporanAdapter(getActivity(), getTestData());
-        laporanRecyclerView.setAdapter(mAdapter);
+//        LaporanAdapter mAdapter = new LaporanAdapter(getActivity(), getTestData());
+//        laporanRecyclerView.setAdapter(mAdapter);
         return view;
     }
     public List<LaporanObject> getTestData() {
