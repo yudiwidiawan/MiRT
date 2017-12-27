@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1007243077834",
+    "firebase_url": "https://mirt-8bf77.firebaseio.com",
+    "project_id": "mirt-8bf77",
+    "storage_bucket": "mirt-8bf77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007243077834:android:e2f73576e346afa2",
+        "android_client_info": {
+          "package_name": "bif14.mirt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007243077834-54ra3ngiqj2i2vtbhgmjjggg2sa8mh6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk_H5s6QGi-H3YifDdItZapMF5egyKU9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
